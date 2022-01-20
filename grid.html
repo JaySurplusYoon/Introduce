@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible", content="IE=edge">
+        <meta name="viewport", content="width=device-width", initial-scale="1.0">
+       
+        <title>grid experience</title>
+
+        <style>
+            div {
+                color : red;
+                border : 5px solid gray;
+            }
+            #test1 {
+                border : 5px solid pink;
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                text-align: center;
+                padding: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "test1">
+            <div>그리드 테스트용 문자1</div>
+            <div>그리드 테스트용 문자2</div>
+        </div>
+    </body>
+</html>
