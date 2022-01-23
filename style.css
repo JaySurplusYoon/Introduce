@@ -13,7 +13,7 @@ h1 {
     font-size: large;
     text-align:center;
     display:grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 3fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
     padding:30px;
     background-color: whitesmoke;
 }
@@ -28,9 +28,11 @@ h2{
     display: grid;
     font-size:large;
     text-align: center;
-    grid-template-columns: 1fr 1fr;
-    
+    grid-template-columns: repeat(2, 1fr);
+    gap : 20px;
+    height: fit-content;
 }
+
 .column{
     border-bottom: darkblue;
 }
