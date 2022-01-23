@@ -34,7 +34,7 @@ h2{
 }
 .containerBf{
     display: grid;
-    font-size : x-large;
+    font-size : medium;
     text-align: left;
     grid-template-columns: 1fr 4fr 2fr;
     gap: 30px;
